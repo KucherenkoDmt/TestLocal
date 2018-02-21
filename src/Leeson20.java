@@ -3,7 +3,7 @@ import java.time.Year;
 //конструктор
 public class Leeson20 {
     public static void main(String[] args) {
-       Human human1 = new Human("Вов",23);
+       Human human1 = new Human("Вов",2423);
        Human human2 = new Human("Том",40);
        human1.printNumberOfPeople();
        human2.printNumberOfPeople();
