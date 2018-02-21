@@ -3,15 +3,16 @@ import java.time.Year;
 //конструктор
 public class Leeson20 {
     public static void main(String[] args) {
-       Human human1 = new Human("Вов",2423);
+       Human human1 = new Human("Вов",223);
 	   Human human3 = new Human("Вов",23);
-       Human human2 = new Human("Том",40);
+       Human human2 = new Human("Том",0);
        human1.printNumberOfPeople();
        human2.printNumberOfPeople();
-       Human h3 = new Human("Carl",543);
+	   human3.printNumberOfPeople();
+       Human h3 = new Human("Carl",54);
        h3.printNumberOfPeople();
 
-     //   Human.description="Nice";
+     //   Human.description="Nicek";
       //  Human.getDescription();
     }
 }
